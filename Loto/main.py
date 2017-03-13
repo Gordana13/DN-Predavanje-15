@@ -35,9 +35,9 @@ class MainHandler(BaseHandler):
 class LotoHandler(BaseHandler):
     def get(self):
         stevila = loto_generator(8)
-        params = {"stevila": stevila}
+        slovar = {"stevila": stevila}
 
-        return self.render_template("loto.html", params=params)
+        return self.render_template("loto.html", slovar)
 
 def loto_generator(quantitiy):
     seznam = []
