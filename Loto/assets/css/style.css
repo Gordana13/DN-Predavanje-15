@@ -1,0 +1,28 @@
+body {
+    background-image: url("https://www.walldevil.com/wallpapers/a76/patterns-background-dark-texture-wallpaper-image-wallpaperscraft-pattern-metallic-lines-powerpoint-backgrounds.jpg");
+}
+
+h1 {
+    font-family: Arial;
+    font-size: 40px;
+    text-align: center;
+}
+
+p {
+    font-family: Georgia;
+    font-size: 30px;
+    margin-left: 4%;
+}
+
+a {
+    font-size: 23px;
+    margin-left: 4%;
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+

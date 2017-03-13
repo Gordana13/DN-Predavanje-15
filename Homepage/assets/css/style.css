@@ -1,0 +1,33 @@
+body {
+    background-image: url("http://www.wallpaperscharlie.com/wp-content/uploads/2016/10/Blue-Background-4.jpg");
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    font-family: Georgia;
+}
+
+.topnav {
+    overflow: hidden;
+    float: top;
+}
+
+.topnav a {
+    color: black;
+    float: right;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+    text-decoration: none;
+    background-color: white;
+}
+
+.topnav a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 18px;
+}
